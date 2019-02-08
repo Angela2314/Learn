@@ -19,11 +19,10 @@ public class LearnJava {
       
         // TODO code application logic here
         String name = "Mary";
-        if(!name.equals( "Mary")){
-            System.out.println("this is not mary.");
-        }
-     
-    
+       
+        System.out.println("yraM");
+        
+ 
     }
     
 }
