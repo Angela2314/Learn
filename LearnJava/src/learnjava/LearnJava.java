@@ -19,10 +19,9 @@ public class LearnJava {
       
         // TODO code application logic here
         String name = "Mary";
-       
-        System.out.println("yraM");
         
- 
+        System.out.print("yarM");
+    
     }
     
 }
