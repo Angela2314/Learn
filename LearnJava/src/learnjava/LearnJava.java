@@ -23,7 +23,7 @@ public class LearnJava {
             String name = "Mary";
             String reverse = new StringBuffer(name).reverse().toString();
             System.out.println(reverse);
-           
+
 }           
        
           
