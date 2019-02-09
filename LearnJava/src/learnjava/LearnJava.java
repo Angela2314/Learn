@@ -14,14 +14,33 @@ public class LearnJava {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-      
-        // TODO code application logic here
-        String name = "Mary";
         
-        System.out.print("yarM");
+       
+    public static void main(String args[]){
+            //TODO code application logic here
+            
+            //TODO code application logic here
+            String name = "Mary";
+            String reverse = new StringBuffer(name).reverse().toString();
+            System.out.println(reverse);
+           
+}           
+       
+          
+          
+             
+            
+      
     
-    }
+
+            
     
-}
+         
+   
+            
+            
+
+    
+        
+    
+
