@@ -14,20 +14,47 @@ public class LearnJava {
     /**
      * @param args the command line arguments
      */
-        
        
+    public static String reverseString(String name){
+         int size = name.length();
+         String reverseName = "";
+            while(size > 0){
+                reverseName  = reverseName + name.charAt(size -1);              
+                size--;
+            }
+        return reverseName;
+          
+    }
+    
+    public static String reverseString(String name, String extra){
+         int size = name.length();
+         String reverseName = "";
+                
+            while(size > 0){
+                reverseName  = reverseName + name.charAt(size -1);              
+                size--;
+            }
+        return reverseName + " " + extra ;   
+          
+    }
+    
     public static void main(String args[]){
             //TODO code application logic here
             
             //TODO code application logic here
-            String name = "Mary";
-            String reverse = new StringBuffer(name).reverse().toString();
-            System.out.println(reverse);
-
-}           
-       
+            String mary = "Mary";
+            String tom = "tom";
+            String larry = "larry";
+           
+            System.out.println(reverseString(mary));
+            System.out.println(reverseString(tom));
+            System.out.println(reverseString(larry, " hi larry"));
+        
+        
+    }  
+         
           
-          
+}
              
             
       
